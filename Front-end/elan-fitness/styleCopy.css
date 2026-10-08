@@ -595,20 +595,46 @@ textarea{
     resize: vertical;
 }
 
-.form{
-    padding: 15px;
-    background: #FF6D1F;
-    display: flex;
-    border-radius: 20px;
-    flex-direction: column;
-    gap: 15px;
-}
 
 .form label {
   font-weight: 600;
 }
 
-.info{
+
+.contact-card-wrapper {
+  display: flex;
+  align-items: stretch;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);
+}
+
+.contact-card-wrapper form {
+  flex: 1;
+}
+
+
+.info {
   background-color: rgb(224, 150, 0);
-  border-radius: 10px;
+  padding: 24px;
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 0; 
+}
+
+.info-item {
+  color: #0F1B2D;
+}
+
+
+.form {
+  padding: 24px;
+  background: #FF6D1F;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 100%;
+  border-radius: 0;
 }
