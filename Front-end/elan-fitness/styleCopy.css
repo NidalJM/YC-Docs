@@ -615,22 +615,26 @@ textarea{
 
 
 .info {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
   color: white;
   background-color: #1E293B;
   padding: 24px;
   min-width: 240px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+  gap: 25px;
   border-radius: 0; 
 }
 
 .info-item {
+    font-family: "Poppins", sans-serif;
+  font-weight: 100;
   color: white;
 }
 
 .info h1 {
-  color: #FFFFFF; /* Makes "Nos informations" bright white */
+  color: #FFFFFF;
 }
 
 .form {
@@ -641,4 +645,22 @@ textarea{
   gap: 15px;
   height: 100%;
   border-radius: 0;
+}
+
+.smicons{
+font-size: 40px;
+margin-top: 40px;
+margin-left: 35px;
+color: #FF6D1F;
+display: flex;
+gap: 30px;
+}
+
+.links{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #FF6D1F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
