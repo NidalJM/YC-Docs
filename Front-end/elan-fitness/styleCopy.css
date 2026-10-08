@@ -615,7 +615,8 @@ textarea{
 
 
 .info {
-  background-color: rgb(224, 150, 0);
+  color: white;
+  background-color: #1E293B;
   padding: 24px;
   min-width: 240px;
   display: flex;
@@ -625,9 +626,12 @@ textarea{
 }
 
 .info-item {
-  color: #0F1B2D;
+  color: white;
 }
 
+.info h1 {
+  color: #FFFFFF; /* Makes "Nos informations" bright white */
+}
 
 .form {
   padding: 24px;
